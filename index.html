@@ -212,7 +212,7 @@
 
                 const clientId = "7a2d0446-ca7a-4161-af22-d3a75363bfad";
                 const redirectUri = "https://imtiglitch.github.io/CareHospice123/";
-                const authUrl = `https://welcome-eval.ukg.net/authorize?audience=https://wfm.ukg.net/api&organization=org_xVctMqKFMBuklu87&response_type=code&client_id=${clientId}&redirect_uri=${encodeURIComponent(redirectUri)}`;
+                const authUrl = `https://welcome-eval.ukg.net/authorize?organization=org_xVctMqKFMBuklu87&client_id=7a2d0446-ca7a-4161-af22-d3a75363bfad&scope=openid+profile+email+access:wfm+offline_access+read:userinfo&response_type=code&redirect_uri=https://imtiglitch.github.io/CareHospice123/`;
 
                 window.location.href = authUrl;
             }
@@ -234,7 +234,7 @@
                     // Initiate the authorization flow
                     const clientId = "7a2d0446-ca7a-4161-af22-d3a75363bfad";
                     const redirectUri = "https://imtiglitch.github.io/CareHospice123/";
-                    const authUrl = `https://welcome-eval.ukg.net/authorize?audience=https://wfm.ukg.net/api&organization=org_xVctMqKFMBuklu87&response_type=code&client_id=${clientId}&redirect_uri=${encodeURIComponent(redirectUri)}`;
+                    const authUrl = `https://welcome-eval.ukg.net/authorize?organization=org_xVctMqKFMBuklu87&client_id=7a2d0446-ca7a-4161-af22-d3a75363bfad&scope=openid+profile+email+access:wfm+offline_access+read:userinfo&response_type=code&redirect_uri=https://imtiglitch.github.io/CareHospice123/`;
                     
                     window.location.href = authUrl;
                 }
